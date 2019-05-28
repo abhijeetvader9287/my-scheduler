@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="@string/menu_email_template" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_sms_template" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/menu_import_email_contacts" />
+        <item
+            android:id="@+id/nav_tools"
+
+            android:title="@string/menu_import_sms_contacts" />
+        <item
+            android:id="@+id/nav_schedule_email"
+
+            android:title="@string/menu_schedule_email" />
+        <item
+            android:id="@+id/nav_schedule_sms"
+
+            android:title="@string/menu_schedule_sms" />
+    </group>
+</menu>
