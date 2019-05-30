@@ -4,26 +4,43 @@
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/menu_email_template"
 
             android:title="@string/menu_email_template" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/menu_sms_template"
             android:title="@string/menu_sms_template" />
+
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/menu_email_template_list"
+
+            android:title="@string/menu_email_template_list" />
+        <item
+            android:id="@+id/menu_sms_template_list"
+            android:title="@string/menu_sms_template_list" />
+        <item
+            android:id="@+id/menu_import_email_contacts"
             android:title="@string/menu_import_email_contacts" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/menu_import_sms_contacts"
 
             android:title="@string/menu_import_sms_contacts" />
         <item
-            android:id="@+id/nav_schedule_email"
+            android:id="@+id/menu_schedule_email"
 
             android:title="@string/menu_schedule_email" />
         <item
-            android:id="@+id/nav_schedule_sms"
+            android:id="@+id/menu_schedule_sms"
 
             android:title="@string/menu_schedule_sms" />
+
+        <item
+            android:id="@+id/menu_email_contact_list"
+
+            android:title="@string/menu_email_contact_list" />
+        <item
+            android:id="@+id/menu_sms_contact_list"
+
+            android:title="@string/menu_sms_contact_list" />
     </group>
 </menu>

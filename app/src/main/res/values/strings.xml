@@ -20,4 +20,8 @@
     <string name="menu_schedule_sms">Schedule sms</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_email_contact_list">Email contact list</string>
+    <string name="menu_sms_contact_list">SMS contact list</string>
+    <string name="menu_email_template_list">Email template list</string>
+    <string name="menu_sms_template_list">SMS template list</string>
 </resources>
